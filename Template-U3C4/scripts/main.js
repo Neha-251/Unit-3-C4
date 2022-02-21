@@ -62,7 +62,7 @@ function appendArticles(articles, main) {
 
 
         main_p.append(div_title, div_content, div_description, div_publishedAt);
-        content_div.append(img, main_p);
+        content_div.append(image, main_p);
         main.append(content_div);
 
     })
